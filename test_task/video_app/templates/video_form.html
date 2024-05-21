@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marquee Text</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/video_form.css' %}">
+</head>
+<body>
+    <h1>Create a Marquee Video</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

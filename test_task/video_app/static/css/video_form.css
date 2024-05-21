@@ -1,0 +1,35 @@
+body {
+    background-image: url('/static/images/Фон.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 50px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
